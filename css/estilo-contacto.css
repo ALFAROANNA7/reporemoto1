@@ -1,0 +1,57 @@
+body{
+     background-image: url(../vistas/imagenes/fondo-eucalipto-tropical.jpg);
+     background-position: center;
+     height: 1800px;
+     background-attachment: fixed;
+     background-size: cover;
+}
+
+h1{
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color:#504e4e ;
+   background-color:#B6CE8A;
+   letter-spacing: 3px;
+   font-size: 40px;
+   margin-left: 100px;
+   margin-right: 100px;
+   }
+.contacto{
+ text-align: left;
+ font-size: 25px;
+}
+.form{
+     width: 500px;
+     margin: auto;
+     background-color:rgba(0, 0, 0, 0.4);
+     padding: 10px 20px;
+     box-sizing: border-box;
+     margin-top: 20px;
+     text-align:left;
+}
+
+footer{
+     text-align: center;
+     font-size:25px;
+}
+@media screen and (max-width: 768px){
+ h1{
+      font-size: 30px;
+      margin-left: auto;
+      margin-right: auto;
+ }
+ p{
+  font-size:20px;
+ }
+ .form{
+      width: 100%;
+ }
+ footer h2{
+      font-size: 25px;
+ }
+ nav{
+      font-size: 15px;
+ }
+ nav p{
+      font-size: 15px;
+ }
