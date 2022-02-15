@@ -71,8 +71,9 @@ div p{
 }
 
 .imagenes{
-    display: flex;
-    justify-content:space-evenly;
+     display: flex;
+    justify-content:space-evenly;  	
+
 }
 .section{
     display: flex;
